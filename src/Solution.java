@@ -7,8 +7,20 @@ public class Solution {
     public int digitCounts(int k, int n) {
         // write your code here
         int num=0;
-        num+=n/10;
-        if(num%10>k) num++;
+        int j=1;
+        int m;
+        while (n > 0) {
+            n=n/10;
+            m=n%10;
+            if(m>=k)
+                num++;
+            num+=n;
+            if(n>k)
+                num+=Math.pow(10,j);
+            if(n==k)
+                num+=m*Math.pow(10,j-1);
+            ++j;
+        }
         return num;
     }
 };
