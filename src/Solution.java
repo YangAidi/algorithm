@@ -10,15 +10,18 @@ public class Solution {
         int j=1;
         int m;
         while (n > 0) {
-            n=n/10;
             m=n%10;
-            if(m>=k)
+            n=n/10;
+            if(m>k)
                 num++;
             num+=n;
             if(n>k)
                 num+=Math.pow(10,j);
-            if(n==k)
-                num+=m*Math.pow(10,j-1);
+            if(n==k) {
+                double num2=(m + 1) * Math.pow(10, j - 1);
+                num+=num2;
+                break;
+            }
             ++j;
         }
         return num;
