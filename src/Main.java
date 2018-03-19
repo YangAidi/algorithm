@@ -1,7 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        Solution solution=new Solution();
-        System.out.println(solution.digitCounts(1,12));
+        Solution5 solution=new Solution5();
+        int[] array={9,3,2,4,8};
+        System.out.println(solution.kthLargestElement(4,array));
     }
 }
