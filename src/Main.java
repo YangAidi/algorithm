@@ -1,8 +1,9 @@
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
-        Solution5 solution=new Solution5();
-        int[] array={9,3,2,4,8};
-        System.out.println(solution.kthLargestElement(4,array));
+        Solution6 solution=new Solution6();
+        System.out.println(Arrays.toString(solution.mergeSortedArray(new int[]{1,2,3,4}, new int[]{2,4,5,6})));
     }
 }
