@@ -1,9 +1,20 @@
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-        Solution28 solution=new Solution28();
-        System.out.println(solution.searchMatrix(new int[][]{{1,3, 5, 7},{10, 11, 16, 20},{23, 30, 34, 50}},7));
+        Solution35 solution=new Solution35();
+        ListNode l=new ListNode(0);
+        ListNode l1=new ListNode(1);
+        ListNode l2=new ListNode(2);
+        ListNode l3=new ListNode(3);
+        l.next=l1;
+        l1.next=l2;
+        l2.next=l3;
+        System.out.println(l);
+        System.out.println(solution.reverse(l));
     }
 }
