@@ -6,15 +6,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        Solution35 solution=new Solution35();
-        ListNode l=new ListNode(0);
-        ListNode l1=new ListNode(1);
-        ListNode l2=new ListNode(2);
-        ListNode l3=new ListNode(3);
-        l.next=l1;
-        l1.next=l2;
-        l2.next=l3;
-        System.out.println(l);
-        System.out.println(solution.reverse(l));
+        Solution46 solution=new Solution46();
+        System.out.println(solution.majorityNumber(new ArrayList<>(Arrays.asList(1,1,1,1,2,2,2))));
     }
 }
