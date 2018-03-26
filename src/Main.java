@@ -6,7 +6,8 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        Solution55 solution=new Solution55();
-        System.out.println(solution.compareStrings("ABC","A"));
+        Solution64 solution=new Solution64();
+        solution.mergeSortedArray(new int[]{1,2,3},3,new int[]{4,5},2);
+        System.out.println();
     }
 }
