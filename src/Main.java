@@ -7,8 +7,20 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        Solution831 solution831=new Solution831();
-        System.out.println(solution831.threeSum2(1));
+        ListNode p1=new ListNode(1);
+        ListNode p2=new ListNode(2);
+        ListNode p3=new ListNode(3);
+        ListNode p4=new ListNode(4);
+        ListNode p5=new ListNode(5);
+        p1.next=p2;
+        p2.next=p3;
+        p3.next=p4;
+        p4.next=p5;
+        p5.next=null;
+        Solution450 solution450=new Solution450();
+        System.out.println(solution450.reverseKGroup(p1,2));
+//        Solution831 solution831=new Solution831();
+//        System.out.println(solution831.threeSum2(1));
 //        Solution186 solution186=new Solution186();
 //        Point[] p=new Point[]{new Point(-54,-297),new Point(-36,-222),new Point(3,-2),
 //                new Point(30,53),new Point(-5,1),new Point(-36,-222),new Point(0,2),
