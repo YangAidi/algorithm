@@ -7,17 +7,22 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        Solution101 solution100=new Solution101();
-        System.out.println(solution100.removeDuplicates(new int[]{-8,0,1,2,3}));
-//        ListNode p1=new ListNode(1);
-//        ListNode p2=new ListNode(2);
-//        ListNode p3=new ListNode(3);
-//        ListNode p4=new ListNode(4);
-//        ListNode p5=new ListNode(5);
-//        p1.next=p2;
-//        p2.next=p3;
-//        p3.next=p4;
-//        p4.next=p5;
+//        Solution101 solution100=new Solution101();
+//        System.out.println(solution100.removeDuplicates(new int[]{-8,0,1,2,3}));
+        ListNode p1=new ListNode(3);
+        ListNode p2=new ListNode(1);
+        ListNode p3=new ListNode(2);
+        ListNode pa=new ListNode(5);
+        ListNode pb=new ListNode(9);
+        ListNode pc=new ListNode(5);
+        ListNode pd=new ListNode(1);
+        p1.next=p2;
+        p2.next=p3;
+        pa.next=pb;
+        pb.next=pc;
+        pc.next=pd;
+        Solution221 solution221=new Solution221();
+        System.out.println(solution221.addLists2(p1,pa));
 //        p5.next=null;
 //        Solution450 solution450=new Solution450();
 //        System.out.println(solution450.reverseKGroup(p1,2));
