@@ -1,28 +1,39 @@
-import LeetCode.Solution814;
-import LeetCode.Solution814.*;
-import LeetCode.TreeNode;
-
-
 public class Main {
 
     public static void main(String[] args) {
-        TreeNode t1=new TreeNode(1);
-        TreeNode t2=new TreeNode(1);
-        TreeNode t3=new TreeNode(0);
-        TreeNode t4=new TreeNode(1);
-        TreeNode t5=new TreeNode(1);
-        TreeNode t6=new TreeNode(0);
-        TreeNode t7=new TreeNode(1);
-        TreeNode t8=new TreeNode(0);
-        t1.left=t2;
-        t1.right=t3;
-        t2.left=t4;
-        t2.right=t5;
-        t3.left=t6;
-        t3.right=t7;
-        t4.left=t8;
-        Solution814 solution814=new Solution814();
-        System.out.println(solution814.pruneTree(t1));
+        Solution82 solution82=new Solution82();
+        System.out.println(solution82.singleNumber(new int[]{1,2,2,1,3,4,3}));
+//        ListNode p1 = new ListNode(3);
+//        ListNode p2 = new ListNode(1);
+//        ListNode p3 = new ListNode(5);
+//        ListNode pa = new ListNode(5);
+//        ListNode pb = new ListNode(9);
+//        ListNode pc = new ListNode(2);
+//        //ListNode pd = new ListNode(1);
+//        p1.next = p2;
+//        p2.next = p3;
+//        pa.next = pb;
+//        pb.next = pc;
+//        //pc.next = pd;
+//        Solution167 solution167=new Solution167();
+//        System.out.println(solution167.addLists(p1,pa));
+//        TreeNode t1=new TreeNode(1);
+//        TreeNode t2=new TreeNode(1);
+//        TreeNode t3=new TreeNode(0);
+//        TreeNode t4=new TreeNode(1);
+//        TreeNode t5=new TreeNode(1);
+//        TreeNode t6=new TreeNode(0);
+//        TreeNode t7=new TreeNode(1);
+//        TreeNode t8=new TreeNode(0);
+//        t1.left=t2;
+//        t1.right=t3;
+//        t2.left=t4;
+//        t2.right=t5;
+//        t3.left=t6;
+//        t3.right=t7;
+//        t4.left=t8;
+//        Solution814 solution814=new Solution814();
+//        System.out.println(solution814.pruneTree(t1));
 //        Solution821 solution821 =new Solution821();
 //        System.out.println(solution821.largestTriangleArea(new int[][]{{0,0},{0,1},{1,0}}));
 //        Solution65 solution65=new Solution65();
