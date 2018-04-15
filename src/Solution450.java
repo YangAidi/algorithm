@@ -1,3 +1,5 @@
+import lib.ListNode;
+
 /**
  * @program: LintCode
  * @author: YangAidi
@@ -6,16 +8,16 @@
 
 //public class Solution450 {
 //    /**
-//     * @param head: a ListNode
+//     * @param head: a lib.ListNode
 //     * @param k:    An integer
-//     * @return: a ListNode
+//     * @return: a lib.ListNode
 //     */
-//    public ListNode reverseKGroup(ListNode head, int k) {
+//    public lib.ListNode reverseKGroup(lib.ListNode head, int k) {
 //        // write your code here
 //        if (head == null || head.next == null || k == 0 || k == 1) return head;
-//        ListNode nextHead = head;
-//        ListNode p = null;
-//        ListNode newHead = head;
+//        lib.ListNode nextHead = head;
+//        lib.ListNode p = null;
+//        lib.ListNode newHead = head;
 //        while (nextHead != null) {
 //            head=nextHead;
 //            //nextHead移动到下一轮的开头
@@ -25,7 +27,7 @@
 //                nextHead = nextHead.next;
 //                ++i;
 //            }
-//            ListNode l = new ListNode(-1);
+//            lib.ListNode l = new lib.ListNode(-1);
 //            while (head != null) {
 //                p = head;
 //                head = head.next;
@@ -42,9 +44,9 @@
 //}
 public class Solution450 {
     /**
-     * @param head a ListNode
+     * @param head a lib.ListNode
      * @param k an integer
-     * @return a ListNode
+     * @return a lib.ListNode
      */
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode dummy = new ListNode(0);

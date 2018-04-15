@@ -7,25 +7,11 @@
  * 但是具体怎么操作的时候还是出了点问题，造成了断链
  **/
 
+import lib.ListNode;
+
 /**
- * Definition for ListNode
+ * Definition for lib.ListNode
  */
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-
-    @Override
-    public String toString() {
-        if (next == null) return String.valueOf(val);
-        return String.valueOf(val) + "-" + next.toString();
-    }
-}
-
 public class Solution35 {
     /**
      * @param head: n

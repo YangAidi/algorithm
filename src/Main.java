@@ -1,15 +1,33 @@
+//import LeetCode.LeetCode.Solution817;
+
+import lib.ListNode;
+
 public class Main {
 
     public static void main(String[] args) {
-        Solution82 solution82=new Solution82();
-        System.out.println(solution82.singleNumber(new int[]{1,2,2,1,3,4,3}));
-//        ListNode p1 = new ListNode(3);
-//        ListNode p2 = new ListNode(1);
-//        ListNode p3 = new ListNode(5);
-//        ListNode pa = new ListNode(5);
-//        ListNode pb = new ListNode(9);
-//        ListNode pc = new ListNode(2);
-//        //ListNode pd = new ListNode(1);
+        ListNode p1 = new ListNode(1);
+        ListNode p2 = new ListNode(2);
+        ListNode p3 = new ListNode(0);
+        ListNode p4 = new ListNode(4);
+        ListNode p5 = new ListNode(3);
+        p1.next=p2;
+        p2.next=p3;
+        p3.next=p4;
+        p4.next=p5;
+
+//        Solution817 solution817 = new Solution817();
+//        System.out.println(solution817.numComponents(p1,new int[]{3,4,0,2,1}));
+//        Solution819 solution819=new Solution819();
+//        System.out.println(solution819.mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.",new String[]{"hit"}));
+//        Solution82 solution82=new Solution82();
+//        System.out.println(solution82.singleNumber(new int[]{1,2,2,1,3,4,3}));
+//        lib.ListNode p1 = new lib.ListNode(3);
+//        lib.ListNode p2 = new lib.ListNode(1);
+//        lib.ListNode p3 = new lib.ListNode(5);
+//        lib.ListNode pa = new lib.ListNode(5);
+//        lib.ListNode pb = new lib.ListNode(9);
+//        lib.ListNode pc = new lib.ListNode(2);
+//        //lib.ListNode pd = new lib.ListNode(1);
 //        p1.next = p2;
 //        p2.next = p3;
 //        pa.next = pb;
@@ -42,13 +60,13 @@ public class Main {
 //        System.out.println(solution57.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
 //        Solution101 solution100=new Solution101();
 //        System.out.println(solution100.removeDuplicates(new int[]{-8,0,1,2,3}));
-//        ListNode p1=new ListNode(3);
-//        ListNode p2=new ListNode(1);
-//        ListNode p3=new ListNode(2);
-//        ListNode pa=new ListNode(5);
-//        ListNode pb=new ListNode(9);
-//        ListNode pc=new ListNode(5);
-//        ListNode pd=new ListNode(1);
+//        lib.ListNode p1=new lib.ListNode(3);
+//        lib.ListNode p2=new lib.ListNode(1);
+//        lib.ListNode p3=new lib.ListNode(2);
+//        lib.ListNode pa=new lib.ListNode(5);
+//        lib.ListNode pb=new lib.ListNode(9);
+//        lib.ListNode pc=new lib.ListNode(5);
+//        lib.ListNode pd=new lib.ListNode(1);
 //        p1.next=p2;
 //        p2.next=p3;
 //        pa.next=pb;

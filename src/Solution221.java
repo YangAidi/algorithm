@@ -4,15 +4,17 @@
  * @create: 2018-04-05 22:48
  **/
 
+import lib.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Definition for ListNode
- * public class ListNode {
+ * Definition for lib.ListNode
+ * public class lib.ListNode {
  * int val;
- * ListNode next;
- * ListNode(int x) {
+ * lib.ListNode next;
+ * lib.ListNode(int x) {
  * val = x;
  * next = null;
  * }

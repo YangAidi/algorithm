@@ -1,3 +1,5 @@
+import lib.ListNode;
+
 /**
  * @program: LintCode
  * @author: YangAidi
