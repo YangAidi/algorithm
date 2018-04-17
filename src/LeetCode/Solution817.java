@@ -41,6 +41,7 @@ public class Solution817 {
             fa=head;
             head = head.next;
         }
+        //貌似肯定是最后一个？是的！
         for (int h : hash) {
             if (h == 1)
                 num++;
