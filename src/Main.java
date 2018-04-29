@@ -1,19 +1,22 @@
 //import LeetCode.LeetCode.Solution817;
 
+import LeetCode.Solution;
 import lib.ListNode;
 
 public class Main {
 
     public static void main(String[] args) {
-        ListNode p1 = new ListNode(1);
-        ListNode p2 = new ListNode(2);
-        ListNode p3 = new ListNode(0);
-        ListNode p4 = new ListNode(4);
-        ListNode p5 = new ListNode(3);
-        p1.next=p2;
-        p2.next=p3;
-        p3.next=p4;
-        p4.next=p5;
+        Solution solution=new Solution();
+        System.out.println(solution.toGoatLatin("I speak Goat Latin"));
+//        ListNode p1 = new ListNode(1);
+//        ListNode p2 = new ListNode(2);
+//        ListNode p3 = new ListNode(0);
+//        ListNode p4 = new ListNode(4);
+//        ListNode p5 = new ListNode(3);
+//        p1.next=p2;
+//        p2.next=p3;
+//        p3.next=p4;
+//        p4.next=p5;
 
 //        Solution817 solution817 = new Solution817();
 //        System.out.println(solution817.numComponents(p1,new int[]{3,4,0,2,1}));
