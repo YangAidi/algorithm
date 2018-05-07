@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 /**
  * @program: LintCode
@@ -14,6 +14,7 @@ package LeetCode;
  * TreeNode right;
  * TreeNode(int x) { val = x; }
  * }
+ * @author Administrator
  */
 
 
@@ -28,7 +29,9 @@ public class Solution814 {
 
     private int sum(TreeNode root) {
         //if (root.left == null && root.right == null) {return 0;}
-        if (root == null) return 0;
+        if (root == null) {
+            return 0;
+        }
         if (sum(root.left) + sum(root.right) == 0 && root.val == 0) {
             root=null;
             return 0;

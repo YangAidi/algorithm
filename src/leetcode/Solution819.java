@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 import java.util.*;
 
@@ -24,8 +24,9 @@ public class Solution819 {
             if(h.containsKey(ss))
             {
                 h.put(ss, h.get(ss) +1);
-            }else
-                h.put(ss,1);
+            }else {
+                h.put(ss, 1);
+            }
         }
         int max=0;
         String maxkey=null;

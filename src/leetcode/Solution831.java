@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 /**
  * @program: LintCode

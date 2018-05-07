@@ -1,6 +1,4 @@
-package LeetCode;
-
-import java.util.List;
+package leetcode;
 
 /**
  * @program: LintCode
@@ -13,7 +11,9 @@ public class Solution {
         String res="";
         for(int i=0,j=0;i<s.length;++i)
         {
-            if(i!=0) res+=" ";
+            if(i!=0) {
+                res += " ";
+            }
             char first=s[i].charAt(0);
             String now;
             //int j=0;

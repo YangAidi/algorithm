@@ -1,16 +1,13 @@
 //import LeetCode.LeetCode.Solution817;
 
-import LeetCode.Solution;
-import LeetCode.Solution829;
-import LeetCode.Solution831;
-import lib.ListNode;
+import leetcode.Solution829;
 
 public class Main {
 
     public static void main(String[] args) {
         Solution829 solution829=new Solution829();
         System.out.println(solution829.consecutiveNumbersSum(9548114));
-//        LeetCode.Solution831 solution831=new Solution831();
+//        leetcode.Solution831 solution831=new Solution831();
 //        System.out.println(solution831.maskPII("1(234)567-890"));
 //        System.out.println(solution831.maskPII("+(501321)-50-23431"));
 //        System.out.println(solution831.maskPII("+86(88)1513-7-74"));

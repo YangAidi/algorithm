@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 /**
  * @program: LintCode
@@ -38,7 +38,9 @@ public class Solution829 {
             int count=0;
 
             while (accum<= N) {
-                if ((N-accum)%m==0) ++count;
+                if ((N-accum)%m==0) {
+                    ++count;
+                }
                 ++m;
                 accum=m*(m+1)>>1;
             }

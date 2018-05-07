@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 /**
  * @program: LintCode
@@ -7,7 +7,11 @@ package LeetCode;
  **/
 public class Solution821 {
     public double largestTriangleArea(int[][] points) {
-        if(points==null||points.length<3)return 0;
+        if(points==null||points.length<3) {
+            {
+                return 0;
+            }
+        }
         double max=-0.1;
         for(int i=0;i<points.length;++i)
         {
@@ -16,8 +20,9 @@ public class Solution821 {
                 for (int k=j+1;k<points.length;++k)
                 {
                     double now =mianJi(points[i],points[j],points[k]);
-                    if(now>max)
-                        max=now;
+                    if(now>max) {
+                        max = now;
+                    }
                 }
             }
         }

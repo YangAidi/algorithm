@@ -1,4 +1,4 @@
-package LeetCode;//package LeetCode;
+package leetcode;//package leetcode;
 
 import lib.ListNode;
 
@@ -9,8 +9,12 @@ import lib.ListNode;
  **/
 public class Solution817 {
     public int numComponents(ListNode head, int[] G) {
-        if (head == null) return 0;
-        if (G.length == 1) return 1;
+        if (head == null) {
+            return 0;
+        }
+        if (G.length == 1) {
+            return 1;
+        }
         int[] hash = new int[10001];
         for (int g : G) {
             hash[g]++;
@@ -43,8 +47,9 @@ public class Solution817 {
         }
         //貌似肯定是最后一个？是的！
         for (int h : hash) {
-            if (h == 1)
+            if (h == 1) {
                 num++;
+            }
         }
 
         return num;
