@@ -1,18 +1,13 @@
-//import LeetCode.LeetCode.Solution817;
-
-import leetcode.Solution829;
 import leetcode.TreeNode;
 
 public class Main {
 
     public static void main(String[] args) {
-        Solution829 solution829=new Solution829();
-        System.out.println(solution829.consecutiveNumbersSum(9548114));
 
         Solution691 solution = new Solution691();
         TreeNode t1 = new TreeNode(4);
-        TreeNode t2 = new TreeNode(2);
-        TreeNode t3 = new TreeNode(5);
+        TreeNode t2 = new TreeNode(5);
+        TreeNode t3 = new TreeNode(2);
         TreeNode t4 = new TreeNode(1);
         TreeNode t5 = new TreeNode(3);
         t1.left = t2;
