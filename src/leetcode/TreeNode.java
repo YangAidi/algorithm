@@ -6,7 +6,7 @@ package leetcode;
  * @create: 2018-04-08 10:25
  **/
 public class TreeNode {
-    int val;
+    public int val;
     public TreeNode left=null;
     public TreeNode right=null;
 
