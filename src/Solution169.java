@@ -14,20 +14,19 @@ public class Solution169 {
      */
     public List<String> towerOfHanoi(int n) {
         // write your code here
-        List l=new ArrayList();
-        hanoi("A","C","B",n,l);
+        List l = new ArrayList();
+        hanoi("A", "C", "B", n, l);
 
         return l;
     }
-    public void hanoi(String A,String C,String B,int n,List l)
-    {
-        if(n==1)
-            l.add("from "+A+" to "+C);
-        else
-        {
-            hanoi(A,B,C,n-1,l);
-            l.add("from "+A+" to "+C);
-            hanoi(B,C,A,n-1,l);
+
+    public void hanoi(String A, String C, String B, int n, List l) {
+        if (n == 1)
+            l.add("from " + A + " to " + C);
+        else {
+            hanoi(A, B, C, n - 1, l);
+            l.add("from " + A + " to " + C);
+            hanoi(B, C, A, n - 1, l);
         }
     }
 }

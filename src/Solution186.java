@@ -242,6 +242,7 @@ class Line {
         }
     }
 
+    @Override
     public String toString() {
         return Double.toString(a) + " " + Double.toString(b) + " " + Double.toString(c);
     }
