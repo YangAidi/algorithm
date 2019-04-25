@@ -9,6 +9,8 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println(new Solution1282().reverseVowels("hello"));
+
 
 //        Solution691 solution = new Solution691();
 //        TreeNode t1 = new TreeNode(4);
