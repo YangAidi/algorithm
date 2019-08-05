@@ -19,4 +19,7 @@ public class Solution {
 
         return null;
     }
+    public void test(){
+
+    }
 }
