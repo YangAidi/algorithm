@@ -1,15 +1,7 @@
-import leetcode.TreeNode;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Arrays;
-
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(new Solution1282().reverseVowels("hello"));
+        new Solution1215().magicalString(6);
 
 
 //        Solution691 solution = new Solution691();
