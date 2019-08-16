@@ -1,8 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        new Solution1215().magicalString(6);
-
+        System.out.println(new Solution1375().kDistinctCharacters("bkacsrgjkynenkwbfaeblmbjfjshojryawvsuftmqftkjqnsjfhvbsddwiwmifhphftkckkedzotkbiplqjsgdyqgjnclwjqxbbc",2));
 
 //        Solution691 solution = new Solution691();
 //        TreeNode t1 = new TreeNode(4);
