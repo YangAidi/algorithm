@@ -7,9 +7,14 @@ package leetcode;
  **/
 public class TreeNode {
     public int val;
-    public TreeNode left=null;
-    public TreeNode right=null;
+    public TreeNode left = null;
+    public TreeNode right = null;
 
+    public TreeNode(int x, TreeNode left, TreeNode right) {
+        val = x;
+        this.left = left;
+        this.right = right;
+    }
     public TreeNode(int x) {
         val = x;
     }
