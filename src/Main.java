@@ -1,8 +1,15 @@
+import java.util.LinkedList;
+
 public class Main {
 
 
     public static void main(String[] args) {
-        System.out.println(new Solution1010().maxIncreaseKeepingSkyline(new int[][]{{3,0,8,4},{2,4,5,7},{9,2,6,3},{0,3,1,0}}));
+        System.out.println(new Solution1002().numBusesToDestination(new int[][]{{1, 2, 7}, {3, 6, 7}}, 1, 6));
+        LinkedList<Solution> l=new LinkedList<>();
+        while (true) {
+            l.add(new Solution());
+        }
+//        System.out.println(new Solution1010().maxIncreaseKeepingSkyline(new int[][]{{3,0,8,4},{2,4,5,7},{9,2,6,3},{0,3,1,0}}));
 //        Solution691 solution = new Solution691();
 //        TreeNode t1 = new TreeNode(4);
 //        TreeNode t2 = new TreeNode(5);
