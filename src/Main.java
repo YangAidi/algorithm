@@ -1,14 +1,51 @@
 import java.util.LinkedList;
+import java.util.Scanner;
 
 public class Main {
 
 
     public static void main(String[] args) {
-        System.out.println(new Solution1002().numBusesToDestination(new int[][]{{1, 2, 7}, {3, 6, 7}}, 1, 6));
-        LinkedList<Solution> l=new LinkedList<>();
-        while (true) {
-            l.add(new Solution());
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        String[] strs = s.split(" ");
+        int len = Integer.parseInt(strs[0], 16);
+        StringBuffer sb = new StringBuffer();
+        for (int i = 1; i < strs.length; i++) {
+            if (!strs[i].contains("A") && !strs[i].contains("B")) {
+                sb.append(strs[i] + " ");
+            } else {
+                String ss = strs[i];
+                for (int k = 0; k < ss.length(); k++) {
+                    if (ss.charAt(k) == 'A') {
+                        sb.append("12 34 ");
+                    } else if (ss.charAt(k) == 'B') {
+                        sb.append("171 205 ");
+                    }
+                }
+            }
         }
+        Integer res = sb.toString().trim().split(" ").length + 1;
+        System.out.println(res + " " + sb.toString().trim());
+
+
+//        Scanner in = new Scanner(System.in);
+//        int n = in.nextInt();
+//        int count = n;
+//        int[] res = new int[300];
+//        for (int i = 0; i < n; ++i) {
+//            String s = in.next();
+//            char c =s.toCharArray()[0];
+//            if(c == 'A'){
+//                res[count++]=12;
+//                res[count++]=34;
+//            }else if(c=='B'){
+//                res[count++]=12;
+//            res[count++]=34;
+//
+//            } else{
+//        }
+
+
 //        System.out.println(new Solution1010().maxIncreaseKeepingSkyline(new int[][]{{3,0,8,4},{2,4,5,7},{9,2,6,3},{0,3,1,0}}));
 //        Solution691 solution = new Solution691();
 //        TreeNode t1 = new TreeNode(4);
