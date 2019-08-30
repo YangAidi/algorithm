@@ -1,3 +1,5 @@
+package offer;
+
 /**
  * @program: LintCode
  * @author: YangAidi

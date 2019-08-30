@@ -1,32 +1,8 @@
-import java.util.LinkedList;
-import java.util.Scanner;
-
 public class Main {
 
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        String[] strs = s.split(" ");
-        int len = Integer.parseInt(strs[0], 16);
-        StringBuffer sb = new StringBuffer();
-        for (int i = 1; i < strs.length; i++) {
-            if (!strs[i].contains("A") && !strs[i].contains("B")) {
-                sb.append(strs[i] + " ");
-            } else {
-                String ss = strs[i];
-                for (int k = 0; k < ss.length(); k++) {
-                    if (ss.charAt(k) == 'A') {
-                        sb.append("12 34 ");
-                    } else if (ss.charAt(k) == 'B') {
-                        sb.append("171 205 ");
-                    }
-                }
-            }
-        }
-        Integer res = sb.toString().trim().split(" ").length + 1;
-        System.out.println(res + " " + sb.toString().trim());
-
+        new Solution52().nextPermutation(new int[]{2,1,1});
 
 //        Scanner in = new Scanner(System.in);
 //        int n = in.nextInt();
