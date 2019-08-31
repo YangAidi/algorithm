@@ -1,8 +1,15 @@
+import java.util.ArrayList;
+
 public class Main {
 
 
     public static void main(String[] args) {
-        new Solution52().nextPermutation(new int[]{2,1,1});
+        new Solution920().canAttendMeetings(new ArrayList<Interval>(){
+            {
+                add(new Interval(5, 8));
+                add(new Interval(6, 8));
+            }
+        });
 
 //        Scanner in = new Scanner(System.in);
 //        int n = in.nextInt();
