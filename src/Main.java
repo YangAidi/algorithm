@@ -1,16 +1,19 @@
-import java.util.ArrayList;
-
 public class Main {
 
 
     public static void main(String[] args) {
-        new Solution920().canAttendMeetings(new ArrayList<Interval>(){
-            {
-                add(new Interval(5, 8));
-                add(new Interval(6, 8));
-            }
-        });
 
+//
+//        ListNode p1 = new ListNode(0);
+//        ListNode p2 = new ListNode(3);
+//        ListNode p3 = new ListNode(1);
+//        ListNode p4 = new ListNode(-1);
+////        ListNode p5 = new ListNode(3);
+//        p1.next = p2;
+//        p2.next = p3;
+//        p3.next = p4;
+//        p4.next = p5;
+//        System.out.println(new Solution98().sortList(p1));
 //        Scanner in = new Scanner(System.in);
 //        int n = in.nextInt();
 //        int count = n;

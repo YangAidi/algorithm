@@ -6,18 +6,6 @@ import java.util.List;
  * @create: 2018-03-25 10:36
  * 这个题目需要考虑的情况太多了，不写了。
  **/
-class Interval {
-    int start, end;
-    Interval(int start, int end) {
-        this.start = start;
-        this.end = end;
-    }
-
-    @Override
-    public String toString() {
-        return String.valueOf(start)+"-"+String.valueOf(end);
-    }
-}
 public class Solution30 {
     /*    *//*
      * @param intervals: Sorted interval list.

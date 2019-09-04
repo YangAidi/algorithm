@@ -1,5 +1,3 @@
-package lib;
-
 /**
  * @program: LintCode
  * @author: YangAidi
