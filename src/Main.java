@@ -2,17 +2,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-
-//
-//        ListNode p1 = new ListNode(0);
-//        ListNode p2 = new ListNode(3);
-//        ListNode p3 = new ListNode(1);
-//        ListNode p4 = new ListNode(-1);
-////        ListNode p5 = new ListNode(3);
-//        p1.next = p2;
-//        p2.next = p3;
-//        p3.next = p4;
-//        p4.next = p5;
+new Solution1210().findSubsequences(new int[]{4,6,7,7});
 //        System.out.println(new Solution98().sortList(p1));
 //        Scanner in = new Scanner(System.in);
 //        int n = in.nextInt();
