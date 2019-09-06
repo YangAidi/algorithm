@@ -1,57 +1,51 @@
-/*
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
-*/
 /**
  * @program: LintCode
  * @author: YangAidi
- * @create: 2018-04-20 17:39
- **//*
-
+ * @create: 2019-09-06 11:44
+ **/
 public class MinStack {
-    private Stack<Integer> stack;
-    private int minIndex =0;
-    private HashMap<Integer,int[]> hashMap=new HashMap();
     public MinStack() {
         // do intialization if necessary
-        stack=new Stack();
     }
 
-    */
-/*
+    private Stack<Integer> s1=new Stack<>();
+    private Stack<Integer> s2=new Stack<>();
+
+    /*
      * @param number: An integer
      * @return: nothing
-     *//*
-
+     */
     public void push(int number) {
         // write your code here
-        if(stack.empty()){
-            hashMap.put(minIndex,new int[]{number, minIndex++});
-        }else if(number<hashMap.get(minIndex -1)[1]){
-            hashMap.put(minIndex,new int[]{number, minIndex++});
+        s1.push(number);
+        if(s2.isEmpty()){
+            s2.push(number);
+        }else if(number<s2.peek()) {
+            s2.push(number);
+        }else {
+            s2.push(s2.peek());
         }
-        stack.push(number);
+
     }
 
-    */
-/*
+    /*
      * @return: An integer
-     *//*
-
+     */
     public int pop() {
         // write your code here
-        int nuym stack.pop();
+        s2.pop();
+        return s1.pop();
     }
 
-    */
-/*
+    /*
      * @return: An integer
-     *//*
-
+     */
     public int min() {
         // write your code here
-        return minIndex;
+        return s2.peek();
     }
 }
-*/

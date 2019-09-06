@@ -2,7 +2,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-new Solution1210().findSubsequences(new int[]{4,6,7,7});
+        System.out.println(new Solution1089B().checkValidString("(*))*)(("));
 //        System.out.println(new Solution98().sortList(p1));
 //        Scanner in = new Scanner(System.in);
 //        int n = in.nextInt();
