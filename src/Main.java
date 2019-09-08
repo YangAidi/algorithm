@@ -1,14 +1,14 @@
-import leetcode.Solution;
+
 
 public class Main {
 
 
     public static void main(String[] args) {
-        MyCalendar myCalendar= new MyCalendar();
-        myCalendar.book(23,32);
-        myCalendar.book(42,50);
-        myCalendar.book(6,14);
-        myCalendar.book(0,7);
-        System.out.println(1);
+        ListNode l = new ListNode(10);
+        ListNode l2 = new ListNode(60);
+        ListNode l3 = new ListNode(20);
+        l.next=l2;
+        l3.next=l2;
+        System.out.println(new Solution380().getIntersectionNode(l, l2));
     }
 }
