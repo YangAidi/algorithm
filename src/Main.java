@@ -4,11 +4,13 @@ public class Main {
 
 
     public static void main(String[] args) {
-        ListNode l = new ListNode(10);
-        ListNode l2 = new ListNode(60);
-        ListNode l3 = new ListNode(20);
-        l.next=l2;
-        l3.next=l2;
-        System.out.println(new Solution380().getIntersectionNode(l, l2));
+        ListNode l1 =new ListNode(1);
+        ListNode l2 =new ListNode(2);
+        ListNode l3 =new ListNode(3);
+        ListNode l4 =new ListNode(4);
+        l1.next=l2;
+        l2.next=l3;
+        l3.next=l4;
+        System.out.println(new Solution36B().reverseBetween(l1,2,4));
     }
 }
