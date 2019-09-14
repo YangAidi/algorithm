@@ -2,10 +2,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Solution545 s =new Solution545(3);
-        s.add(3);
-        s.add(10);
-        System.out.println(s.topk());
+        System.out.println(new Solution89B().kSum(new int[]{1,2,3,4},2,5));
 
     }
 }
