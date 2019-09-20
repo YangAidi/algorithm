@@ -1,5 +1,3 @@
-package leetcode;
-
 /**
  * @program: LintCode
  * @author: YangAidi

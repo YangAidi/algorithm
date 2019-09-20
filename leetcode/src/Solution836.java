@@ -1,14 +1,9 @@
-package leetcode;
-
-import org.junit.Test;
-
 /**
  * @program: LintCode
  * @author: YangAidi
  * @create: 2018-05-20 10:32
  **/
 public class Solution836 {
-    @Test
     public void test()
     {
         System.out.println(isRectangleOverlap(new int[]{2, 17, 6, 20}, new int[]{3, 8, 6, 20}));

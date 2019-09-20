@@ -1,7 +1,5 @@
 package dp;
 
-import org.junit.Test;
-
 /**
  * @program: LintCode
  * @author: YangAidi
@@ -31,8 +29,6 @@ public class MinCoins {
             }
         }
 
-
-        @Test
         public void test() throws Exception {
             int sum = 11; // 需要凑 11 元
             d = new int[sum + 1]; // 初始化数组
