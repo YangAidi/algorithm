@@ -5,6 +5,8 @@
  **/
 public class Main {
     public static void main(String[] args){
-        System.out.println(new Solution17().letterCombinations("23"));
+        System.out.println(new Solution169().majorityElement(new int[]{6,5,5}));
+
+
     }
 }

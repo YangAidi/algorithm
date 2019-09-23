@@ -1,7 +1,6 @@
-package tx;
+package tx1;
 
 import java.util.Scanner;
-import java.util.Vector;
 
 /**
  * @program: LintCode

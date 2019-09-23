@@ -1,9 +1,7 @@
-package tx;
+package tx1;
 
 
 import java.util.Scanner;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @program: LintCode
