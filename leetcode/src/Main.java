@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * @program: LintCode
  * @author: YangAidi
@@ -5,8 +7,6 @@
  **/
 public class Main {
     public static void main(String[] args){
-        System.out.println(new Solution169().majorityElement(new int[]{6,5,5}));
-
-
+        System.out.println(new Solution().subarraySum(new int[]{1,1,1},2));
     }
 }
