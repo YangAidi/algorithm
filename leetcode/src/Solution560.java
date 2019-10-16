@@ -6,7 +6,7 @@ import java.util.Map;
  * @author: YangAidi
  * @create: 2019-10-15 10:42
  **/
-class Solution {
+class Solution560 {
     public int subarraySum(int[] nums, int k) {
         int sum = 0;
         Map<Integer, Integer> map = new HashMap<>();
